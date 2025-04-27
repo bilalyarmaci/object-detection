@@ -10,11 +10,10 @@ The **trained model** is already provided — **no need to train again**!
 
 ## 📁 Project Structure
 ```
-├── webcam_test.py   # Script to test trained models using a webcam
-├── runs/            # Trained models and detection results (includes best.pt)
-├── data/            # Dataset images and labels (optional if needed)
-├── requirements.txt # Python dependencies
-└── README.md        # Project documentation
+├── webcam_test.py     # Script to test trained models using a webcam
+├── runs/detect/train  # Trained models and detection results (includes best.pt)
+├── requirements.txt   # Python dependencies
+└── README.md          # Project documentation
 ```
 
 ---
