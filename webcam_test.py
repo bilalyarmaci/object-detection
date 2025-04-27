@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # 1. Load trained weights
-model = YOLO("runs/detect/train5/weights/best.pt")
+model = YOLO("runs/detect/train/weights/best.pt")
 
 # 2. Open webcam
 camera_index = 0  # Default camera index
